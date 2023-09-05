@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito+Sans:opsz@6..12&display=swap');
+
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: #E0E0E0;
+}
+
+p {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/*===Estilos generales===*/
+
+.nav {
+  width: max-content ;
+  background-color: #E0E0E0;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav ul li a {
+  background-color: #E0E0E0;
+  margin: 5px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #388E3C ;
+}
+
+
+
+.inicio {
+  background-image: url('./../assets/inicio/Banner.jpg');
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed;
+}
+
+.nuestros-trabajos article img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.titulo-principal {
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  color: #4CAF50 ;
+}
+
+.titulo-secundario {
+  display: inline;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #E0E0E0;
+  color:#795548;
+}
+
+.titulo-seccion {
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  color: #4CAF50  ;
+}
+
+.titulo-articulo {
+  font-family: 'Lobster', cursive;
+  color: #795548 ;
+}
+
+
+
+
+
+
+
+/*===Página inicio===*/
+  /*Sección sobre nosotros*/
+  .sobre-nosotros {
+    background-color: #E0E0E0 ;
+  }
+
+  .sobre-nosotros h3 {
+    font-family: 'Lobster', cursive;
+    color: #81C784;
+  }
+
+  /*Sección Servicios*/
+  .servicios {
+    background-color: #FFFFFF ;
+  }
+
+  .servicios article img {
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  /*Sección contacto*/
+  .contacto {
+    background-color: #E0E0E0;
+  }
+
+
+/*===Página electricidad===*/
+.intro-electricidad article .certificado {
+  max-width: 700px;
+  max-height: 700px;
+}
+
+
