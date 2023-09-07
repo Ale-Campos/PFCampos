@@ -165,7 +165,7 @@ p {
   position:fixed;
   width: 100%;
   background-color: #795548;
-  z-index: 1;
+  z-index: 2;
 }
 
 .nav-link {
@@ -201,6 +201,10 @@ p {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+.carousel-item {
+  height: 400px;
+}
+
 /*===Responsive===*/
 
 @media (max-width: 576px) {
@@ -218,6 +222,10 @@ p {
 
   .servicios-especificos article {
     height: fit-content;
+  }
+
+  .carousel-item {
+    height: 210px;
   }
 
 }
