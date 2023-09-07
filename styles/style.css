@@ -2,10 +2,12 @@
 
 * {
   margin: 0px;
+  padding: 0px;
 }
 
 body {
   background-color: #E0E0E0;
+  padding: 0px;
 }
 
 p {
@@ -51,6 +53,7 @@ p {
   font-family: 'Lobster', cursive;
   font-size: 3rem;
   color: #4CAF50 ;
+  margin-top: 50px;
 }
 
 .titulo-secundario {
@@ -80,9 +83,27 @@ p {
 
 
 /*===Página inicio===*/
+
+.inicio .contenido-seccion {
+  padding-top: 5%;
+}
+
+.logo {
+  width: 400px;
+}
+
+.logo-sm {
+  width: 50px;
+}
+
   /*Sección sobre nosotros*/
   .sobre-nosotros {
-    background-color: #E0E0E0 ;
+    background-color: #E0E0E0;
+    padding: 10px;
+  }
+
+  .sobre-nosotros article {
+    text-align: center;
   }
 
   .sobre-nosotros h3 {
@@ -92,12 +113,24 @@ p {
 
   /*Sección Servicios*/
   .servicios {
-    background-color: #FFFFFF ;
+    background-image: url('./../assets/inicio/fondo-planta-madera-herramientas-jardineria-hobby.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed;
   }
 
-  .servicios article img {
-    max-width: 500px;
-    max-height: 500px;
+  .servicios article {
+    width: 550px;
+    height: 550px;
+    border:#388E3C solid 1px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+  }
+
+  .servicios article img{
+    width: 100%;
+    border-radius: 10px;
   }
 
   /*Sección contacto*/
@@ -112,4 +145,42 @@ p {
   max-height: 700px;
 }
 
+/*===Modificaciones de bootstrap===*/
 
+.navbar {
+  position:fixed;
+  width: 100%;
+  background-color: #795548;
+}
+
+.nav-link {
+  font-size: 1.2em;
+  font-weight: bold;
+  color:#81C784;
+}
+
+.nav-link:hover {
+  font-size: 1.3em;
+  color: #388E3C;
+}
+
+.row {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*===Responsive===*/
+@media (max-width: 576px) {
+  .titulo-principal {
+    margin-top: 100px;
+  }
+
+  .logo {
+    width: 320px;
+  }
+
+  .servicios article {
+    height: 500px;
+  }
+
+}
