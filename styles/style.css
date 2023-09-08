@@ -220,10 +220,6 @@ p {
     height: 500px;
   }
 
-  .servicios-especificos article {
-    height: fit-content;
-  }
-
   .carousel-item {
     height: 210px;
   }
