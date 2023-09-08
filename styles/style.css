@@ -159,6 +159,10 @@ p {
   max-height: 700px;
 }
 
+.detalle-electricidad {
+  margin-top: 50%;
+}
+
 /*===Modificaciones de bootstrap===*/
 
 .navbar {
@@ -223,5 +227,14 @@ p {
   .carousel-item {
     height: 210px;
   }
+
+  .detalle-electricidad {
+    display: none;
+  }
+
+  .certificado {
+    width: 100%;
+  }
+  
 
 }
