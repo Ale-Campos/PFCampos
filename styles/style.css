@@ -8,6 +8,7 @@
 body {
   background-color: #E0E0E0;
   padding: 0px;
+  margin: 0px;
 }
 
 p {
@@ -131,14 +132,16 @@ p {
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-attachment: fixed;
+    margin-bottom: 20px;
   }
 
   .servicios article {
     width: 550px;
     height: 550px;
+    margin: 5px;
     border:#388E3C solid 1px;
     background-color: white;
-    margin: 5px;
+
     border-radius: 10px;
   }
 
@@ -183,10 +186,7 @@ p {
   color: #388E3C;
 }
 
-.row {
-  margin: 0px;
-  padding: 0px;
-}
+
 
 .carousel-container {
   width: fit-content;
@@ -236,6 +236,13 @@ p {
   .certificado {
     width: 100%;
   }
-  
+
+  .servicios article {
+    margin:30px;
+  }
+
+  .servicios-especificos article {
+    margin: 30px;
+  }
 
 }
