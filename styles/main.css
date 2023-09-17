@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito+Sans:opsz@6..12&display=swap');
-
+@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px;
@@ -12,65 +11,58 @@ body {
 }
 
 p {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
-/*===Estilos generales===*/
-
+/*===Estilos Generales===*/
 .nav {
-  width: max-content ;
+  width: max-content;
   background-color: #E0E0E0;
 }
-
 .nav ul {
   list-style: none;
 }
-
 .nav ul li a {
   background-color: #E0E0E0;
   margin: 5px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: bold;
   font-size: 20px;
   text-decoration: none;
-  color: #388E3C ;
+  color: #388E3C;
 }
 
-
-
 .inicio {
-  background-image: url('./../assets/inicio/Banner.jpg');
-  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-image: url("./../assets/inicio/Banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .servicios-especificos {
-  background-image: url('./../assets/inicio/fondo-planta-madera-herramientas-jardineria-hobby.jpg');
+  background-image: url("./../assets/inicio/fondo-planta-madera-herramientas-jardineria-hobby.jpg");
   background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   background-attachment: fixed;
   margin-top: 50px;
 }
-
 .servicios-especificos article {
   width: 550px;
   height: fit-content;
-  border:#388E3C solid 1px;
+  border: #388E3C solid 1px;
   background-color: white;
   margin: 5px;
   border-radius: 10px;
 }
-
 .servicios-especificos article img {
   width: 100%;
   padding-bottom: 20px;
 }
 
 .titulo-principal {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   font-size: 3rem;
-  color: #4CAF50 ;
+  color: #4CAF50;
   margin-top: 50px;
 }
 
@@ -78,26 +70,22 @@ p {
   display: inline;
   padding: 5px;
   border-radius: 5px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   background-color: #E0E0E0;
-  color:#795548;
+  color: #795548;
 }
 
 .titulo-seccion {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   font-size: 3rem;
-  color: #4CAF50  ;
+  color: #4CAF50;
   padding: 20px;
 }
 
 .titulo-articulo {
-  font-family: 'Lobster', cursive;
-  color: #795548 ;
+  font-family: "Lobster", cursive;
+  color: #795548;
 }
-
-
-
-/*===Página inicio===*/
 
 .inicio .contenido-seccion {
   padding-top: 5%;
@@ -111,52 +99,47 @@ p {
   width: 50px;
 }
 
-  /*Sección sobre nosotros*/
-  .sobre-nosotros {
-    background-color: #E0E0E0;
-    padding: 10px;
-  }
+/*Sección sobre nosotros*/
+.sobre-nosotros {
+  background-color: #E0E0E0;
+  padding: 10px;
+}
+.sobre-nosotros article {
+  text-align: center;
+}
+.sobre-nosotros h3 {
+  font-family: "Lobster", cursive;
+  color: #81C784;
+}
 
-  .sobre-nosotros article {
-    text-align: center;
-  }
+/*Sección Servicios*/
+.servicios {
+  background-image: url("./../assets/inicio/fondo-planta-madera-herramientas-jardineria-hobby.jpg");
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed;
+  margin-bottom: 20px;
+}
+.servicios article {
+  width: 550px;
+  height: 550px;
+  margin: 5px;
+  border: #388E3C solid 1px;
+  background-color: white;
+  border-radius: 10px;
+}
+.servicios article img {
+  width: 100%;
+  border-radius: 10px;
+}
 
-  .sobre-nosotros h3 {
-    font-family: 'Lobster', cursive;
-    color: #81C784;
-  }
-
-  /*Sección Servicios*/
-  .servicios {
-    background-image: url('./../assets/inicio/fondo-planta-madera-herramientas-jardineria-hobby.jpg');
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    background-attachment: fixed;
-    margin-bottom: 20px;
-  }
-
-  .servicios article {
-    width: 550px;
-    height: 550px;
-    margin: 5px;
-    border:#388E3C solid 1px;
-    background-color: white;
-    border-radius: 10px;
-  }
-
-  .servicios article img{
-    width: 100%;
-    border-radius: 10px;
-  }
-
-  /*Sección contacto*/
-  .contacto {
-    background-color: #E0E0E0;
-  }
-
+/*Seacción contacto*/
+.contacto {
+  background-color: #E0E0E0;
+}
 
 /*===Página electricidad===*/
-.intro-electricidad article .certificado {
+.intro-electricidad article .certidicado {
   max-width: 700px;
   max-height: 700px;
 }
@@ -165,11 +148,9 @@ p {
   margin: 20px;
 }
 
-
 /*===Modificaciones de bootstrap===*/
-
 .navbar {
-  position:fixed;
+  position: fixed;
   width: 100%;
   background-color: #795548;
   z-index: 2;
@@ -178,14 +159,11 @@ p {
 .nav-link {
   font-size: 1.2em;
   font-weight: bold;
-  color:#81C784;
+  color: #81C784;
 }
-
 .nav-link:hover {
   color: #388E3C;
 }
-
-
 
 .carousel-container {
   width: fit-content;
@@ -210,38 +188,29 @@ p {
 }
 
 /*===Responsive===*/
-
 @media (max-width: 576px) {
   .titulo-principal {
     margin-top: 100px;
   }
-
   .logo {
     width: 320px;
   }
-
   .servicios article {
     height: 500px;
+    margin: 30px;
   }
-
   .carousel-item {
     height: 210px;
   }
-
   .detalle-electricidad {
     display: none;
   }
-
   .certificado {
     width: 100%;
   }
-
-  .servicios article {
-    margin:30px;
-  }
-
   .servicios-especificos article {
     margin: 30px;
   }
-
 }
+
+/*# sourceMappingURL=main.css.map */
