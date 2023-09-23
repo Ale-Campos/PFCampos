@@ -1,0 +1,16 @@
+.servicios {
+    @include fondos($fondoDeServicios);
+    margin-bottom: 20px; 
+    article {
+        width: 550px;
+        height: 550px;
+        margin: 5px;
+        border:$colorContrasteAlto solid 1px;
+        background-color: white;
+        border-radius: 10px;
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+}

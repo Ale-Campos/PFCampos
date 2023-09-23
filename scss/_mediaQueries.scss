@@ -1,0 +1,32 @@
+@media (max-width: 576px) {
+    .titulo-principal {
+        margin-top: 100px;
+      }
+    
+      .logo-xl {
+        width: 320px;
+      }
+
+      .servicios {
+        article {
+            height: 500px;
+            margin: 30px;
+        }
+      }
+      .carousel-item {
+        height: 210px;
+      }
+    
+      .detalle-electricidad {
+        display: none;
+      }
+    
+      .certificado {
+        width: 100%;
+      }
+      .servicios-especificos {
+        article {
+            margin: 30px;
+        }
+      }
+}

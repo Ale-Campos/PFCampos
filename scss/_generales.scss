@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    @extend *;
+    background-color: $colorSeccion;
+
+}
+
+p {
+    font-family: $fuentePrincipal;
+
+}
+
+.nav {
+    width: max-content;
+    background-color: $colorSeccion;
+    ul {
+        list-style: none;
+        li {
+            a {
+                background-color: $colorSeccion;
+                margin: 5px;
+                font-family: $fuentePrincipal;
+                font-weight: bold;
+                font-size: 20px;
+                text-decoration: none;
+                color: $colorContrasteAlto ;
+            }
+        }
+    }
+}
+
+.inicio {
+    @include fondos($bannerPrincipl);
+}
+
+.servicios-especificos {
+    @include fondos($fondoDeServicios);
+    margin-top: 50px;
+    article {
+        width: 550px;
+        height: fit-content;
+        border:$colorContrasteAlto solid 1px;
+        background-color: white;
+        margin: 5px;
+        border-radius: 10px;
+        img {
+            width: 100%;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+.titulo-principal {
+    @include titulo-fuente-color($fuenteTitulos, $colorContrasteMedio);
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+.titulo-secundario {
+    @include titulo-fuente-color($fuentePrincipal, $colorTitulosTerciarios);
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: $colorSeccion;
+}
+
+.titulo-seccion {
+    @include titulo-fuente-color($fuenteTitulos, $colorContrasteMedio);
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.titulo-articulo {
+    @include titulo-fuente-color($fuenteTitulos, $colorTitulosTerciarios);
+}
+
+.inicio {
+    .contenido-seccion {
+        padding-top: 5%;
+    }
+}

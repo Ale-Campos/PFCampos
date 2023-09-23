@@ -1,0 +1,11 @@
+.sobre-nosotros {
+    background-color: $colorSeccion;
+    padding: 10px;
+    article {
+        text-align: center;
+    }
+    h3 {
+        font-family: $fuenteTitulos;
+        color: $colorContrasteBajo;
+    }
+}

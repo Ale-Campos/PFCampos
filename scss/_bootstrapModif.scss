@@ -1,0 +1,37 @@
+.navbar {
+    position:fixed;
+    width: 100%;
+    background-color: $colorTitulosTerciarios;
+    z-index: 2;
+}
+
+.nav-link {
+    font-size: 1.2em;
+    font-weight: bold;
+    color:$colorContrasteBajo;
+    &:hover {
+        color: $colorContrasteAlto;
+    }
+}
+
+.carousel-container {
+    width: fit-content;
+    border: 1px black solid;
+    border-radius: 20px;
+    box-shadow: $sombras
+  }
+
+.carousel {
+    padding: 10px;
+    width: 900px;
+    height: 100%;
+}
+
+.carousel-inner {
+    border-radius: 20px;
+    box-shadow: $sombras
+}
+
+.carousel-item {
+    height: 400px;
+}
