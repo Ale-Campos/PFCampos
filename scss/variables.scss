@@ -1,0 +1,35 @@
+$fuentePrincipal:'Nunito Sans', sans-serif;
+$fuenteTitulos: 'Lobster', cursive;
+$bannerPrincipl: './../assets/inicio/Banner.jpg';
+$colorSeccion: #E0E0E0;
+$colorContrasteAlto: #388E3C;
+$colorContrasteBajo: #81C784;
+$colorContrasteMedio: #4CAF50;
+$colorTitulosTerciarios: #795548;
+$fondoDeServicios: './../assets/inicio/fondo-planta-madera-herramientas-jardineria-hobby.jpg';
+$sombras: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+$logos: (
+    xl: 400px,
+    sm:50px
+);
+
+@each $tipo, $valor in $logos {
+    .logo-#{$tipo} {
+        width: $valor;
+    }
+}
+
+
+@mixin fondos($imagen) {
+    background-image: url($imagen);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@mixin titulo-fuente-color($fuente, $color) {
+    font-family: $fuente;
+    color: $color;
+}
+

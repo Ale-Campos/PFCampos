@@ -1,13 +1,19 @@
 @charset "UTF-8";
-* {
+.logo-xl {
+  width: 400px;
+}
+
+.logo-sm {
+  width: 50px;
+}
+
+*, body {
   margin: 0px;
   padding: 0px;
 }
 
 body {
   background-color: #E0E0E0;
-  padding: 0px;
-  margin: 0px;
 }
 
 p {
@@ -41,8 +47,8 @@ p {
 
 .servicios-especificos {
   background-image: url("./../assets/inicio/fondo-planta-madera-herramientas-jardineria-hobby.jpg");
-  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   margin-top: 50px;
 }
@@ -61,24 +67,24 @@ p {
 
 .titulo-principal {
   font-family: "Lobster", cursive;
-  font-size: 3rem;
   color: #4CAF50;
+  font-size: 3rem;
   margin-top: 50px;
 }
 
 .titulo-secundario {
+  font-family: "Nunito Sans", sans-serif;
+  color: #795548;
   display: inline;
   padding: 5px;
   border-radius: 5px;
-  font-family: "Nunito Sans", sans-serif;
   background-color: #E0E0E0;
-  color: #795548;
 }
 
 .titulo-seccion {
   font-family: "Lobster", cursive;
-  font-size: 3rem;
   color: #4CAF50;
+  font-size: 3rem;
   padding: 20px;
 }
 
@@ -89,14 +95,6 @@ p {
 
 .inicio .contenido-seccion {
   padding-top: 5%;
-}
-
-.logo {
-  width: 400px;
-}
-
-.logo-sm {
-  width: 50px;
 }
 
 /*Sección sobre nosotros*/
@@ -115,8 +113,8 @@ p {
 /*Sección Servicios*/
 .servicios {
   background-image: url("./../assets/inicio/fondo-planta-madera-herramientas-jardineria-hobby.jpg");
-  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   margin-bottom: 20px;
 }
@@ -192,7 +190,7 @@ p {
   .titulo-principal {
     margin-top: 100px;
   }
-  .logo {
+  .logo-xl {
     width: 320px;
   }
   .servicios article {
