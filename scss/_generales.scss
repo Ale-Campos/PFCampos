@@ -35,6 +35,12 @@ p {
 
 .inicio {
     @include fondos($bannerPrincipl);
+    height: 100vh;
+}
+
+.inicio-page {
+    @include fondos($bannerPrincipl);
+    height: 90vh
 }
 
 .servicios-especificos {
@@ -57,7 +63,7 @@ p {
 .titulo-principal {
     @include titulo-fuente-color($fuenteTitulos, $colorContrasteMedio);
     font-size: 3rem;
-    margin-top: 50px;
+    margin-top: 10vh;
 }
 
 .titulo-secundario {

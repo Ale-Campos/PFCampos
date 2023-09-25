@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="./styles/main.css">
     <title>Campos Verdes</title>
 </head>
@@ -59,19 +61,19 @@
                     <div class="container-fluid text-center">
                         <h2 class=" titulo-seccion">Sobre Nosotros</h2>
                         <div class="row">
-                            <article class="col-12  col-sm-4">
+                            <article class="col-12  col-sm-4" data-aos="fade-right">
                                 <h3>Quiénes somos</h3>
                                 <p class="especial">
                                     Somos un equipo apasionado de jardineros y amantes de las plantas que han unido fuerzas para convertir tu espacio exterior en un oasis de belleza y serenidad. Con años de experiencia en el arte de la jardinería, hemos cultivado no solo flores y arbustos, sino también relaciones duraderas con nuestros clientes.
                                 </p>
                             </article>
-                            <article class="col-12 col-sm-4">
+                            <article class="col-12 col-sm-4" data-aos="fade-up">
                                 <h3>Ubicación</h3>
                                 <p class="especial">
                                     Nuestra zona de trabajo principal es la Zona Norte de Buenos Aires. Estamos comprometidos en llevar la magia de la naturaleza a los hogares y espacios de estos alrededores, abarcando localidades como Vicente López, San Isidro, Tigre y más. 
                                 </p>
                             </article>
-                            <article class="col-12 col-sm-4">
+                            <article class="col-12 col-sm-4" data-aos="fade-right">
                                 <h3>Objetivos</h3>
                                 <p class="especial">
                                     Nuestra misión es llevar la magia de la naturaleza a tu hogar, proporcionando servicios de diseño, mantenimiento y asesoramiento que transformarán tu jardín en un lugar excepcional.
@@ -88,14 +90,14 @@
                             <h2 class="titulo-seccion">Servicios</h2>
                         </div>
                         <div class="row justify-content-center">
-                            <article class="text-center">
+                            <article class="text-center" data-aos="fade-right">
                                 <h3 class="titulo-articulo">Mantenimiento de jardines</h3>
                                 <a href="./pages/jardines.html">
                                     <img src="./assets/inicio/Servicios-Mant-Jardines.jpg" alt="Foto de un jardin que resalta por su belleza">
                                 </a>
                                 <p>Nuestro servicio de mantenimiento de jardines se trata de conservar y realzar la belleza que has cultivado con amor. Nuestro equipo de expertos jardineros se encargará de cada detalle, desde la poda adecuada hasta el riego y la alimentación de las plantas, así como la detección y el tratamiento temprano de posibles plagas y enfermedades. <a href="./pages/jardines.html">Ver más...</a></p>
                             </article>
-                            <article class="text-center">
+                            <article class="text-center" data-aos="fade-right">
                                 <h3 class="titulo-articulo">Mantenimiento de piletas</h3>
                                 <a href="./pages/piletas.html">
                                     <img src="./assets/inicio/Servicios-Mant-Piletas.jpg" alt="Foto de una pileta que resalta por su limpieza">
@@ -104,14 +106,14 @@
                             </article>
                         </div>
                         <div class="row justify-content-center">
-                            <article class="text-center">
+                            <article class="text-center" data-aos="fade-right">
                                 <h3 class="titulo-articulo">Poda de árboles</h3>
                                 <a href="./pages/poda.html">
                                     <img src="./assets/inicio/Servicios-Poda.jpg" alt="Foto de un jardín con un árbol podado">
                                 </a>
                                 <p>La poda de árboles es una práctica esencial en el cuidado de tu jardín. No solo mejora la apariencia estética de los árboles, sino que también promueve su salud y seguridad. Nuestro equipo de profesionales comprende la importancia de cada poda, equilibrando la estética con la salud y la longevidad de tus árboles. <a href="./pages/poda.html">Ver más...</a></p>
                             </article>
-                            <article class="text-center">
+                            <article class="text-center" data-aos="fade-right">
                                 <h3 class="titulo-articulo">Instalaciones eléctricas</h3>
                                 <a href="./pages/electricidad.html">
                                     <img src="./assets/inicio/Servicios-Electricidad.jpg" alt="Foto de luces en un jardín">
@@ -141,6 +143,9 @@
             </div>
         </div>
     </footer>
+    <script>
+        AOS.init();
+      </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 .logo-xl {
-  width: 400px;
+  width: 600px;
 }
 
 .logo-sm {
@@ -41,6 +41,15 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  height: 100vh;
+}
+
+.inicio-page {
+  background-image: url("./../assets/inicio/Banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 90vh;
 }
 
 .servicios-especificos {
@@ -67,7 +76,7 @@ p {
   font-family: "Lobster", cursive;
   color: #4CAF50;
   font-size: 3rem;
-  margin-top: 50px;
+  margin-top: 10vh;
 }
 
 .titulo-secundario {

@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="./../styles/main.css">
     <title>Electricidad</title>
 </head>
 <body>
-    <header class="inicio" id="inicio">
+    <header class="inicio-page" id="inicio">
         <div class="container-fluid">
             <div class="row">
                 <nav class="navbar navbar-expand-lg">
@@ -59,18 +61,18 @@
                     <div class="col-12 text-center">
                         <article>
                             <h3 class="titulo-articulo">Certificado</h3>
-                            <img class="certificado" src="./../assets/electricidad/Certificado.jpg" alt="Certificado de un curso de electricidad">
+                            <img class="certificado" src="./../assets/electricidad/Certificado.jpg" alt="Certificado de un curso de electricidad" data-aos="fade-right">
                         </article>
                     </div>
                     <div class="row">
                         <div class="col-6 text-center">
-                            <article class="detalle-electricidad">
+                            <article class="detalle-electricidad" data-aos="fade">
                                 <h3 class="titulo-articulo">Fines estéticos</h3>
                                 <p>Instalaciones cuyo objetivo radique en resaltar la belleza del jardín, iluminando macetas, canteros o brindando una iluminación general del ambiente </p>
                             </article>
                         </div>
                         <div class="col-6 text-center">
-                            <article class="detalle-electricidad">
+                            <article class="detalle-electricidad" data-aos="fade">
                                 <h3 class="titulo-articulo">Fines funcionales</h3>
                                 <p>Instalación dedicada a brindar funcionalidad a los componentes presentes en el jardín. Estos pueden ser enchufes, fotocontroles o temporizadores para gestionar y/o automatizar el funcionamiento de luminarias o equipos de jardinería</p>
                             </article>
@@ -82,24 +84,24 @@
                 <section class="servicios-especificos">
                     <div class="container-fluid">
                         <div class="row justify-content-center text-center">
-                            <article>
+                            <article data-aos="fade-right">
                                 <h3 class="titulo-articulo">Luminarias</h3>
                                 <p>Iluminación general o epecífica para resaltar la belleza del ambiente</p>
                                 <img src="./../assets/electricidad/Luminarias.jpg" alt="Luces en un árbol">
                             </article>
-                            <article>
+                            <article data-aos="fade-right">
                                 <h3 class="titulo-articulo">Automatización de luces</h3>
                                 <p>Controlar el encendido y apagado, optimizando el consumo de energía</p>
                                 <img src="./../assets/electricidad/Autom-luces.jpg" alt="Imágen ilustrativa de una luz">
                             </article>
                         </div>
                         <div class="row justify-content-center text-center">
-                            <article>
+                            <article data-aos="fade-right">
                                 <h3 class="titulo-articulo">Tomacorrientes exteriores</h3>
                                 <p>Instalar puntos de energía en el jardín para poder conectar equipos, luces, etc.</p>
                                 <img src="./../assets/electricidad/Tomacorriente-exterior.jpg" alt="Tomacorrientes instalado en un jardín">
                             </article>
-                            <article>
+                            <article data-aos="fade-right">
                                 <h3 class="titulo-articulo">Automatización de equipos</h3>
                                 <p>Automatizar equipos relacionados al mantenimiento del jardín garantizando una eficiencia energética.</p>
                                 <img src="./../assets/electricidad/Equipos.jpg" alt="Foto de un motor eléctrico">
@@ -123,6 +125,9 @@
             </div>
         </section>
     </footer>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
