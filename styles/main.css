@@ -1,9 +1,9 @@
 .logo-xl {
-  width: 600px;
+  width: 350px;
 }
 
 .logo-sm {
-  width: 50px;
+  width: 40px;
 }
 
 *, body {
@@ -76,7 +76,7 @@ p {
   font-family: "Lobster", cursive;
   color: #4CAF50;
   font-size: 3rem;
-  margin-top: 10vh;
+  margin-top: 12vh;
 }
 
 .titulo-secundario {
@@ -125,7 +125,8 @@ p {
 }
 .servicios article {
   width: 550px;
-  height: 550px;
+  height: 600px;
+  padding: 20px;
   margin: 5px;
   border: #388E3C solid 1px;
   background-color: white;
@@ -195,7 +196,7 @@ p {
     width: 320px;
   }
   .servicios article {
-    height: 500px;
+    height: 550px;
     margin: 30px;
   }
   .carousel-item {

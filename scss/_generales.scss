@@ -63,7 +63,7 @@ p {
 .titulo-principal {
     @include titulo-fuente-color($fuenteTitulos, $colorContrasteMedio);
     font-size: 3rem;
-    margin-top: 10vh;
+    margin-top: 12vh;
 }
 
 .titulo-secundario {
