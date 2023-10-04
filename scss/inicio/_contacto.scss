@@ -1,3 +1,25 @@
 .contacto {
     background-color: $colorSeccion;
+
+    div {
+        margin-bottom: 30px;
+        article {
+            padding-top: 5px;
+            a {
+                padding-left: 5px;
+                
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+            
+        }
+        .copyright {
+            color: $colorCopyright;
+            a {
+                color: $colorCopyright;
+            }
+        }
+    }
+
 }

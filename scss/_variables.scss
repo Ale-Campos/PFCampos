@@ -6,12 +6,13 @@ $colorContrasteAlto: #388E3C;
 $colorContrasteBajo: #81C784;
 $colorContrasteMedio: #4CAF50;
 $colorTitulosTerciarios: #795548;
+$colorCopyright: #adadad;
 $fondoDeServicios: './../assets/inicio/fondo-planta-madera-herramientas-jardineria-hobby.jpg';
 $sombras: 5px 5px 10px rgba(0, 0, 0, 0.3);
 
 $logos: (
-    xl: 350px,
-    sm:40px
+    xl: 500px,
+    sm: 40px
 );
 
 @each $tipo, $valor in $logos {

@@ -1,5 +1,5 @@
 .logo-xl {
-  width: 350px;
+  width: 500px;
 }
 
 .logo-sm {
@@ -93,6 +93,7 @@ p {
   color: #4CAF50;
   font-size: 3rem;
   padding: 20px;
+  text-align: center;
 }
 
 .titulo-articulo {
@@ -132,6 +133,9 @@ p {
   background-color: white;
   border-radius: 10px;
 }
+.servicios article p {
+  padding: 10px;
+}
 .servicios article img {
   width: 100%;
   border-radius: 10px;
@@ -140,10 +144,28 @@ p {
 .contacto {
   background-color: #E0E0E0;
 }
+.contacto div {
+  margin-bottom: 30px;
+}
+.contacto div article {
+  padding-top: 5px;
+}
+.contacto div article a {
+  padding-left: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.contacto div .copyright {
+  color: #adadad;
+}
+.contacto div .copyright a {
+  color: #adadad;
+}
 
-.intro-electricidad article .certidicado {
-  max-width: 700px;
-  max-height: 700px;
+.intro-electricidad article .certificado {
+  max-width: 65vh;
+  max-height: 100vh;
 }
 
 .detalle-electricidad {
@@ -196,7 +218,7 @@ p {
     width: 320px;
   }
   .servicios article {
-    height: 550px;
+    height: fit-content;
     margin: 30px;
   }
   .carousel-item {

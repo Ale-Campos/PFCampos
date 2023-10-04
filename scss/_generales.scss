@@ -78,6 +78,7 @@ p {
     @include titulo-fuente-color($fuenteTitulos, $colorContrasteMedio);
     font-size: 3rem;
     padding: 20px;
+    text-align: center
 }
 
 .titulo-articulo {
