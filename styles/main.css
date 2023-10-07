@@ -61,6 +61,7 @@ p {
   margin-top: 50px;
 }
 .servicios-especificos article {
+  transition-duration: 0.3s;
   width: 550px;
   height: fit-content;
   border: #388E3C solid 1px;
@@ -133,6 +134,14 @@ p {
   border: #388E3C solid 1px;
   background-color: white;
   border-radius: 10px;
+  
+  transition-duration: 0.3s;
+}
+.servicios article:hover {
+  cursor: pointer;
+  transition-duration: 0.3s;
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 10px 6px #388E3C;
 }
 .servicios article p {
   padding: 10px;

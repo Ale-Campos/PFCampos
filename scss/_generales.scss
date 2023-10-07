@@ -47,12 +47,14 @@ p {
     @include fondos($fondoDeServicios);
     margin-top: 50px;
     article {
+        transition-duration: 0.3s;
         width: 550px;
         height: fit-content;
         border:$colorContrasteAlto solid 1px;
         background-color: white;
         margin: 5px;
         border-radius: 10px;
+        
         img {
             width: 100%;
             padding-bottom: 20px;
