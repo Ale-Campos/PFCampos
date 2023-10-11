@@ -66,6 +66,11 @@ p {
     @include titulo-fuente-color($fuenteTitulos, $colorContrasteMedio);
     font-size: 3rem;
     margin-top: 12vh;
+    width: fit-content;
+    height: fit-content;
+    justify-self: center;
+    background-color: $colorTitulosTerciarios;
+    border-radius: 20px;
 }
 
 .titulo-secundario {
@@ -87,8 +92,12 @@ p {
     @include titulo-fuente-color($fuenteTitulos, $colorTitulosTerciarios);
 }
 
-.inicio {
+
     .contenido-seccion {
         padding-top: 5%;
+        
+        article {
+            justify-content: center;
+        }
     }
-}
+

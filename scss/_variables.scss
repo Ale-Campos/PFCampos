@@ -18,6 +18,7 @@ $logos: (
 @each $tipo, $valor in $logos {
     .logo-#{$tipo} {
         width: $valor;
+        height: $valor;
     }
 }
 

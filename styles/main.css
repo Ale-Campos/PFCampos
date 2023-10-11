@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Nunito+Sans:opsz@6..12&display=swap");
 .logo-xl {
   width: 500px;
+  height: 500px;
 }
 
 .logo-sm {
   width: 40px;
+  height: 40px;
 }
 
 *, body {
@@ -79,6 +81,11 @@ p {
   color: #4CAF50;
   font-size: 3rem;
   margin-top: 12vh;
+  width: fit-content;
+  height: fit-content;
+  justify-self: center;
+  background-color: #795548;
+  border-radius: 20px;
 }
 
 .titulo-secundario {
@@ -103,8 +110,11 @@ p {
   color: #795548;
 }
 
-.inicio .contenido-seccion {
+.contenido-seccion {
   padding-top: 5%;
+}
+.contenido-seccion article {
+  justify-content: center;
 }
 
 .sobre-nosotros {
@@ -134,7 +144,6 @@ p {
   border: #388E3C solid 1px;
   background-color: white;
   border-radius: 10px;
-  
   transition-duration: 0.3s;
 }
 .servicios article:hover {
@@ -226,6 +235,7 @@ p {
   }
   .logo-xl {
     width: 320px;
+    height: 320px;
   }
   .servicios article {
     height: fit-content;
